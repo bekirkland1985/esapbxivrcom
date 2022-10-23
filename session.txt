@@ -1,0 +1,23 @@
+Last login: Thu Oct 20 16:32:29 2022 from 192.161.130.2
+
+[phonesuite@vw-00301808744b ~]$ 
+[phonesuite@vw-00301808744b ~]$ 
+[phonesuite@vw-00301808744b ~]$ 
+[phonesuite@vw-00301808744b ~]$ sudo -i
+[sudo] password for phonesuite: 
+[root@vw-00301808744b ~]# 
+[root@vw-00301808744b ~]# 
+[root@vw-00301808744b ~]# psql -U postgres
+psql (9.2.24, server 10.19 (Debian 10.19-1.pgdg90+1))
+WARNING: psql version 9.2, server version 10.0.
+         Some psql features might not work.
+Type "help" for help.
+
+postgres=# \c asgi_cc
+psql (9.2.24, server 10.19 (Debian 10.19-1.pgdg90+1))
+WARNING: psql version 9.2, server version 10.0.
+         Some psql features might not work.
+You are now connected to database "asgi_cc" as user "postgres".
+asgi_cc=# 
+asgi_cc=# INSERT INTO devices (device_type, name, accountcode, username, secret, type, host, context, qualify, VALUES
+asgi_cc(# 
