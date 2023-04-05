@@ -5,12 +5,12 @@ from netmiko import ConnectHandler
 voiceware = {
     'device_type': 'linux',
     'session_log': 'session.txt',
-    'host': '192.161.130.117',
+    'host': '192.161.xxx.xxx',
     'username': 'phonesuite',
-    'password': 'a63TV42c!',
+    'password': 'xxxxxxxx',
     'port': 51002,  # optional, defaults to 22
     'verbose': True,
-    'secret':'a63TV42c!'
+    'secret':'xxxxxxxx'
 }
 
 net_connect = ConnectHandler(**voiceware)
